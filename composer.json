@@ -7,15 +7,17 @@
         "mezzio",
         "pico css"
     ],
+    "homepage": "https://github.com/orgs/axleus/discussions",
+    "support": {
+        "issues": "https://github.com/axleus/axleus-pico/issues",
+        "chat": "https://discord.gg/9TxQ74EPsG"
+    },
     "authors": [
         {
             "name": "Joey Smith",
-            "email": "jsmith@webinertia.net",
-            "homepage": "https://github.com/axleus/htmx/discussions"
+            "email": "jsmith@webinertia.net"
         }
     ],
-    "suggest": {
-    },
     "require": {
         "php": "~8.1.0 || ~8.2.0 || ~8.3.0"
     },
