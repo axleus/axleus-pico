@@ -70,10 +70,16 @@ class ConfigProvider
     public function getViewHelpers(): array
     {
         return [
+            'aliases'    => [
+                'cssBaseline' => View\Helper\CssBaselineHelper::class,
+            ],
             'delegators' => [
                 FormElementErrors::class => [
-                    Form\View\Helper\FormElementErrorsDelegatorFactory::class
+                    Form\View\Helper\FormElementErrorsDelegatorFactory::class,
                 ],
+            ],
+            'invokables' => [
+                View\Helper\CssBaselineHelper::class => View\Helper\CssBaselineHelper::class,
             ],
         ];
     }
